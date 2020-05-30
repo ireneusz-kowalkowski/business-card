@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #252828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.author {
+    
+}
+
+.author__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.author__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+.author__future-position {
+    font-size: 18px;
+    color: #252828;
+    margin: 0;
+    font-style: italic;
+}
