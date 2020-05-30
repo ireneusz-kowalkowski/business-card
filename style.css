@@ -26,7 +26,8 @@ body {
 }
 
 .author {
-    
+    display: flex;
+    align-items: flex-start;
 }
 
 .author__description {
@@ -62,4 +63,8 @@ body {
     color: #252828;
     margin: 0;
     font-style: italic;
+}
+
+.author__picture {
+    margin-right: 32px;
 }
