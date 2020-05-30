@@ -32,6 +32,24 @@ body {
 .author__description {
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+
+.author__description--with-margin {
+    margin-bottom: 22px; 
+}
+
+.author__info {
+    margin-bottom: 24px;
+}
+
+.author__link {
+    text-decoration: none;
+    color: #ed6d05;
+}
+.author__link-instagram {
+    text-decoration: none;
+    color: #e20613;
 }
 
 .author__name {
